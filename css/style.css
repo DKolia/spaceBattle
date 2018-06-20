@@ -1,0 +1,42 @@
+/* inline and block */
+.container1 {
+  border: 1px solid green;
+}
+
+.container1 h1 {
+  display: inline-block;
+  border: 1px solid red;
+  width: (calc 50% - 6px);
+  vertical-align: middle;
+}
+
+.container1 nav {
+  display: inline-block;
+  background-color: pink;
+  width: calc(50% -6px);
+  vertical-align: middle;
+  border: 1px solid purple;
+  text-align: ;
+}
+
+.container2 {
+    border: 1px solid orange;
+}
+
+.container2 h1 {
+  float: left;
+  border: 1px solid gree
+}
+
+.container2 nav {
+  float: right;
+  border: 1px solid grey;
+}
+
+.container3 {
+  border: 1px solid olive;
+}
+
+.container3 h1 {
+  border: 1px solid salmon;
+}
